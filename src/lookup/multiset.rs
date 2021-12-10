@@ -8,7 +8,7 @@ use crate::error::Error;
 use ark_ff::{Field, PrimeField};
 use ark_poly::{
     univariate::DensePolynomial, EvaluationDomain, GeneralEvaluationDomain,
-    Polynomial, UVPolynomial,
+    UVPolynomial,
 };
 use core::ops::{Add, Mul};
 

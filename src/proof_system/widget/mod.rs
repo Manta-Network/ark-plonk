@@ -16,6 +16,8 @@ pub mod permutation;
 /// XXX: Doc this
 pub mod range;
 
+pub mod lookup;
+
 use crate::transcript::TranscriptProtocol;
 use ark_ec::{PairingEngine, TEModelParameters};
 use ark_ff::PrimeField;
